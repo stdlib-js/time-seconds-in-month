@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-seconds-in-month/tags). For example,
+
+```javascript
 import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@v0.2.0-esm/index.mjs';
 ```
 
@@ -113,7 +118,7 @@ var num = secondsInMonth( new Date() );
 <body>
 <script type="module">
 
-import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@v0.2.0-esm/index.mjs';
+import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@esm/index.mjs';
 
 var v;
 var i;
