@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@deno/mod.js';
+import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@v0.2.2-deno/mod.js';
 ```
 
 #### secondsInMonth( \[month\[, year]] )
@@ -108,7 +108,7 @@ var num = secondsInMonth( new Date() );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@deno/mod.js';
+import secondsInMonth from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-seconds-in-month@v0.2.2-deno/mod.js';
 
 var v;
 var i;
